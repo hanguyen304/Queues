@@ -36,7 +36,7 @@ app.use(function(req, res, next)
 	})
 
 // 	2nd server
-	var server2 = newapp.listen(3001, function () {
+	var server2 = app.listen(3001, function () {
 
 	  var host = server2.address().address
 	  var port = server2.address().port
@@ -45,14 +45,12 @@ app.use(function(req, res, next)
 	})
 
 
-
-
-app.get('/',function(req,res)
+app.get('/3000',function(req,res)
 {
 	res.send("First sever ");
 })
 
-newapp.get('/',function(req,res)
+app.get('/3001',function(req,res)
 {
 	res.send("Second sever ");
 })
