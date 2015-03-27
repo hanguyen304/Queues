@@ -1,16 +1,16 @@
 Cache, Proxies, Queues
 =========================
 
-### 1. '/set' and '/get'
+### 1. `/set` and `/get`
 
 ![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0729/ddc9175c-d3f8-11e4-807a-1f0fa016ea28.png)
 ![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0728/d9eef886-d3f8-11e4-98a3-eba984af347e.png)
 
-### 2. '/recent'
+### 2. `/recent`
 
 ![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0732/efc6ee92-d3fe-11e4-95c4-51312f9081f1.png)
 
-### 3. '/upload' and '/meow'
+### 3. `/upload` and `/meow`
 
 ![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0727/d7502014-d3f8-11e4-924a-98e58beb88f8.png)
 ![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0726/ce7fde16-d3f8-11e4-9f92-3cd15f2880d7.png)
