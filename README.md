@@ -24,4 +24,4 @@ Cache, Proxies, Queues
 
 ![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0733/988476ec-d406-11e4-9aae-fd84d8d56cbd.png)
 
-Each `localhost:2015` is run or refreshed, it will go to `localhost:3000` or `localhost:3001`.
+Each time a request is made to `localhost:2015`, it will uniformly deliver requests to `localhost:3000` and `localhost:3001`, 
