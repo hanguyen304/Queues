@@ -37,4 +37,66 @@ proxy.get('/', function(req, res)
 		})
 	});
 	client.get("lastserver",function(err,value){console.log("Last server: "+value)});
+	console.log(proxy.listen.port);
+})
+
+proxy.get('/get',function(req,res)
+{
+	request('http://localhost:'+nextserver+'/get', function (error, response, body) 
+			{
+				if (!error && response.statusCode == 200) 
+				{
+					res.send(body) 
+				}
+
+			})
+
+})
+
+proxy.get('/set',function(req,res)
+{
+	request('http://localhost:'+nextserver+'/set', function (error, response, body) 
+			{
+				if (!error && response.statusCode == 200) 
+				{
+					res.send(body) 
+				}
+
+			})
+})
+
+proxy.get('/upload',function(req,res)
+{
+	request('http://localhost:'+nextserver+'/upload', function (error, response, body) 
+			{
+				if (!error && response.statusCode == 200) 
+				{
+					res.send(body) 
+				}
+
+			})
+})
+
+proxy.get('/meow',function(req,res)
+{
+	request('http://localhost:'+nextserver+'/meow', function (error, response, body) 
+			{
+				if (!error && response.statusCode == 200) 
+				{
+					res.send(body) 
+				}
+
+			})
+})
+
+proxy.get('/recent',function(req,res)
+{
+	request('http://localhost:'+nextserver+'/recent', function (error, response, body) 
+			{
+				if (!error && response.statusCode == 200) 
+				{
+					res.send(body) 
+				}
+
+			})
 })
