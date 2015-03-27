@@ -3,7 +3,7 @@ var multer  = require('multer')
 var express = require('express')
 var fs      = require('fs')
 var app = express()
-var newapp = express()
+
 
 
 // REDIS
@@ -45,16 +45,10 @@ app.use(function(req, res, next)
 	})
 
 
-app.get('/3000',function(req,res)
+app.get('/',function(req,res)
 {
-	res.send("First sever ");
+	res.send("Hello World!");
 })
-
-app.get('/3001',function(req,res)
-{
-	res.send("Second sever ");
-})
-
 
 app.get('/set',function(req,res)
 {
