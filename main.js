@@ -32,7 +32,7 @@ app.use(function(req, res, next)
 	  var host = server1.address().address
 	  var port = server1.address().port
 
-	  console.log('First app listening at http://%s:%s', host, port)
+	  console.log('Example app listening at http://%s:%s', host, port)
 	})
 
 // 	2nd server
@@ -41,7 +41,7 @@ app.use(function(req, res, next)
 	  var host = server2.address().address
 	  var port = server2.address().port
 
-	  console.log('Second app listening at http://%s:%s', host, port)
+	  console.log('Example app listening at http://%s:%s', host, port)
 	})
 
 
