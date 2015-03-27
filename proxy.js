@@ -37,7 +37,7 @@ proxy.get('/', function(req, res)
 		})
 	});
 	client.get("lastserver",function(err,value){console.log("Last server: "+value)});
-	console.log(proxy.listen.port);
+	
 })
 
 proxy.get('/get',function(req,res)
